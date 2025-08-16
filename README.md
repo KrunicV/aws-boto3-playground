@@ -16,18 +16,22 @@ This repository contains hands-on demos and experiments with **Boto3**, the AWS 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/KrunicV/aws-boto3-playground.git
-cd aws-boto3-playground```
+cd aws-boto3-playground
+```
 
 ### 2. Set up a virtual environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate	#Linux/Mac
-venv\Scripts\activate	# Windows```
+venv\Scripts\activate	# Windows
+```
 
 ### 3. Install dependencies
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ### 4. Run the demo
 ```bash
-python boto3_intro/session_demo.py```
+python boto3_intro/session_demo.py
+```
